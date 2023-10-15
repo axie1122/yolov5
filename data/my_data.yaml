@@ -2,12 +2,12 @@ train: /home/anna/HackGt23/datasets/train/images
 val: /home/anna/HackGt23/datasets/valid/images
 test: /home/anna/HackGt23/datasets/test/images
 
-nc: 3
-names: ['I Love You', 'No', 'Perfect']
+nc: 10
+names: ['Drunk', 'Eat', 'Fuck you', 'G', 'Hello', 'I Love You', 'Love', 'No', 'Perfect', 'T']
 
 roboflow:
   workspace: hackgt23-wxwfg
   project: hand-signs-wxpf5
-  version: 1
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/hackgt23-wxwfg/hand-signs-wxpf5/dataset/1
+  url: https://universe.roboflow.com/hackgt23-wxwfg/hand-signs-wxpf5/dataset/4
